@@ -442,7 +442,31 @@ h1 {
 }
 
 
-
+.neons {
+    margin-top: 10rem;
+    text-align: center;
+ }
+ 
+ .neons h1 {
+   font-size: 9rem;
+   text-align: center;
+    font-weight: bold;
+   -webkit-animation: glow 2s ease-in-out infinite alternate;
+   -moz-animation: glow 2s ease-in-out infinite alternate;
+   animation: glow 2s ease-in-out infinite alternate;
+ }
+ 
+ @-webkit-keyframes glow {
+      from {
+       color: #fff;
+     text-shadow: 0 0 10px #FFD300, 0 0 20px #FFD300, 0 0 30px #FFD300, 0 0 40px #FFD300, 0 0 50px #FFD300, 0 0 60px #FFD300, 0 0 70px #FFD300, 0 0 90px #FFD300;
+   }
+   
+   to {
+      color: gray;
+     text-shadow: 0 0 20px #FFD300, 0 0 30px #FFD300, 0 0 40px #FFD300, 0 0 50px #FFD300, 0 0 60px #FFD300, 0 0 70px #FFD300, 0 0 80px #FFD300, 0 1 90px #FFD300;
+   }
+ }
 
 
 
