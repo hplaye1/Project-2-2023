@@ -1,6 +1,22 @@
 body {
     text-align: center;
     background-color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 6em;
+ 
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
 }
 
 
