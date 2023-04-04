@@ -136,7 +136,7 @@ html, body {
   }
   body {
     text-align: center;
-    background-color:red;
+    background-color:black;
     }
   body:before {
     content: '';
