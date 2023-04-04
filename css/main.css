@@ -136,7 +136,7 @@ html, body {
   }
   body {
     text-align: center;
-    background-color: hsla(230,40%,50%,1);
+    background-color:black;
     }
   body:before {
     content: '';
@@ -207,7 +207,7 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: hsla(230,40%,50%,1);
+  background: black;
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
